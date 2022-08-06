@@ -1,0 +1,242 @@
+
+:root {
+    --white: #FFFFFF;
+    --black: #1A1A1B;
+    --background: #F5F7FA;
+    --border: #E7E9F1;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--black);
+}
+
+h2 {
+    background: linear-gradient(100deg, var(--background) 30%, var(--white));
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--black);
+    font-weight: bold;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    min-height: 100vh;
+    background-color: var(--background) ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    width: 70%;
+}
+
+.ticket-wrapper {
+    background: linear-gradient(100deg, #FFFFFF 10%, var(--background) );
+    box-shadow: 0px 6px 12px rgba(181, 183, 192, 0.15);
+    border-radius: 20px;
+    min-height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.side-bar {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 12px rgba(181, 183, 192, 0.15);
+}
+
+@media (max-width: 900px) {
+    .side-bar {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .ticket-wrapper {
+        margin: 20px;
+    }
+
+}
+
+.switch-currency {
+    display: flex;
+}
+
+.btn-currency {
+    width: 100%;
+    border: 1px solid var(--border);
+    height: 40px;
+    margin-right: 4px;
+    border-radius: 10px;
+    background-color: var(--white);
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--black);
+    transition: all ease-in 0.4s;
+    text-transform: uppercase;
+}
+
+.btn-currency:hover {
+    background-color: var(--background) ;
+}
+
+.btn-currency-active {
+    background-color: var(--background) ;
+}
+
+fieldset {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.wrapper-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+    border: 1px solid var(--border);
+    caret-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    height: 20px;
+    width: 20px;
+    background: var(--background);
+    margin-right: 4px;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.checkbox-active::before {
+    content: '\2714';
+    color: var(--black);
+}
+
+.name-checkbox {
+    margin-left: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--black);
+    font-weight: bold;
+
+}
+
+.btn-group {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.btn-group-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-btn-buy {
+    margin: 20px;
+    width: 20%;
+    min-height: 30px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background-color: var(--white);
+    transition: all ease-in 0.4s;
+    font-weight: bold;
+}
+
+.btn-buy-name {
+    font-size: 20px;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.wrapper-btn-buy:hover {
+    background-color: var(--border);
+}
+
+hr {
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1px;
+    background-color: var(--black);;
+}
+
+.wrapper-table {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+
+}
+
+.time {
+    font-size: 30px;
+}
+
+.city {
+    font-size: 18px;
+}
+
+.arrow {
+    margin-top: 20px;
+    height: 3px;
+    width: 80%;
+    background: linear-gradient(100deg, var(--background), var(--black));
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.arrow::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-top: 3px solid var(--black);
+    border-right: 3px solid var(--black);
+    transform: rotate(45deg);
+
+}
+
+.wrapper-arrow-stop {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+
+
+
+
+
+
