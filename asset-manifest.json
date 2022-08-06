@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Test-App-IdeaPlatform/static/css/main.fb3b5e57.css",
+    "main.js": "/Test-App-IdeaPlatform/static/js/main.6f322c7d.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Test-App-IdeaPlatform/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Test-App-IdeaPlatform/index.html",
+    "main.fb3b5e57.css.map": "/Test-App-IdeaPlatform/static/css/main.fb3b5e57.css.map",
+    "main.6f322c7d.js.map": "/Test-App-IdeaPlatform/static/js/main.6f322c7d.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Test-App-IdeaPlatform/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb3b5e57.css",
+    "static/js/main.6f322c7d.js"
+  ]
+}
